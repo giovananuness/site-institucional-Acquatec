@@ -1,27 +1,27 @@
-.header{
+.header {
     color: #32b9cd;
     border-bottom: 3px solid #32b9cd;
     /* border: 3px solid yellow; */
 }
 
-body{
+body {
     margin: 0;
     background-color: black;
     font-family: monospace;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     /* border: 3px solid red; */
 }
 
-.header .container{
+.header .container {
     display: flex;
     justify-content: space-between;
 }
 
-.navbar{
+.navbar {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -32,65 +32,97 @@ body{
     /* border: 3px solid blue; */
 }
 
-.agora{
+.agora {
     font-weight: 1000;
 }
 
-.banner{
-    height:500px;
+.banner {
+    height: 500px;
     background-image: url(imgs/bg-jelly-fish-para-home.png);
     background-size: cover;
 }
-.banner .container{
+
+.banner .container {
     height: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    color:white;
+    color: white;
 }
-.banner .container p{
+
+.banner .container p {
     width: 280px;
-    margin:0;
+    margin: 0;
     padding: 0;
     font-size: 36px;
-    
+
 }
-.banner span{
+
+.banner span {
     font-weight: bolder;
 }
-li a{
+
+li a {
     text-decoration: none;
-    color:#E3b062;
+    color: #E3b062;
 }
-.form-box{
+
+.form-box {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
-input{
+
+input {
     height: 30px;
     border: 2px solid #32b9cd;
     border-radius: 10px;
 }
-.btn{
+
+.btn {
+
+
     font-family: monospace;
-    border:0;
+    border: 1px solid #e6005a;
     border-radius: 4px;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 14px;
+    padding: 0;
+    color: #e6005a;
+    background-color: white;
+    width: 85px;
+    margin: 5px;
+    margin-top: 5px;
+    height: 30px;
+
+}
+
+.btnB {
+    font-family: monospace;
+    border: 0;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 14px;
     padding: 0;
     color: white;
     background-color: #e6005a;
-    width: 120px;
-    align-self: center;
+    width: 85px;
+    margin: 5px;
+    margin-top: 5px;
+    height: 30px;
 }
-.banner .card{
+
+.banner .card {
     background-color: #e5e5e5;
     height: 450px;
     width: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: column;
     color: #e6005a;
 
+}
+
+.butt {
+    display: flex;
 }
